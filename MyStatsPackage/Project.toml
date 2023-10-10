@@ -1,0 +1,7 @@
+name = "MyStatsPackage"
+uuid = "1afc7b7b-1706-48d1-b3e5-8f8c0fde05fc"
+authors = ["Torsten Giess <torsten.giess@ibtb.uni-stuttgart.de>"]
+version = "0.1.0"
+
+[deps]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
