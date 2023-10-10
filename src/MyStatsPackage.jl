@@ -8,5 +8,6 @@ export StatResult
 function printOwner()
     print("torogi94")
 end
+export printOwner
 
 end # module MyStatsPackage
