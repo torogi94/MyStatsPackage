@@ -86,7 +86,7 @@ A real number representing the standard deviation of elements.
 Calculates by the following formula: 
 ```math
 \sqrt{\frac{\sum((x-mean(x))^2)}{n-1}}
-````
+```
 
 # Examples
 
@@ -120,7 +120,7 @@ A real number representing the t-value of elements.
 Calculates by the following formula: 
 ```math
 \frac{mean(x)}{std(x) / (sqrt(length(x)))}
-````
+```
 
 # Examples
 
