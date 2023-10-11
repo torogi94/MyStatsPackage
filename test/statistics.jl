@@ -21,7 +21,7 @@
 
     @testset "rse_tstat" begin
         @test rse_tstat(2:3) == 5.0
-        @test rse_tstat(1:3; σ=1.0) ≈ 3.464 atol = 1e-3
+        @test rse_tstat(1:3; σ = 1.0) ≈ 3.464 atol = 1e-3
         @test_throws MethodError rse_tstat("strings")
     end
 

@@ -30,7 +30,7 @@ See also
 """
 function rse_sum(x)
     sum = 0
-    for arg = x
+    for arg in x
         sum += arg
     end
     return sum
@@ -131,7 +131,7 @@ julia> rse_tstat(2:3)
 
 See also
 """
-function rse_tstat(x; σ=nothing)
+function rse_tstat(x; σ = nothing)
     if σ != isnothing
         σ = rse_std(x)
     end
