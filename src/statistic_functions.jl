@@ -24,9 +24,9 @@ I mean, it's a sum. Not rocket science.
 ```julia-repl
 julia> rse_sum(1:3)
 6
-\```
+```
 
-See also [`rse_mean`](@rse_mean), [`rse_std`](@rse_std), [`rse_tstat`](@rse_tstat).
+See also
 """
 function rse_sum(x)
     sum = 0
@@ -59,9 +59,9 @@ I mean, it's a mean. Not rocket science.
 ```julia-repl
 julia> rse_mean(1:3)
 2
-\```
+```
 
-See also [`rse_sum`](@rse_sum), [`rse_std`](@rse_std), [`rse_tstat`](@rse_tstat).
+See also
 """
 function rse_mean(x)
     return rse_sum(x) / length(x)
@@ -93,9 +93,9 @@ Calculates by the following formula:
 ```julia-repl
 julia> rse_std(1:3)
 1
-\```
+```
 
-See also [`rse_sum`](@rse_sum), [`rse_mean`](@rse_mean), [`rse_tstat`](@rse_tstat).
+See also
 """
 function rse_std(x)
     return sqrt(rse_sum((x .- rse_mean(x)) .^ 2) / (length(x) - 1))
@@ -127,9 +127,9 @@ Calculates by the following formula:
 ```julia-repl
 julia> rse_tstat(2:3)
 5
-\```
+```
 
-See also [`rse_sum`](@rse_sum), [`rse_mean`](@rse_mean), [`rse_std`](@rse_std).
+See also
 """
 function rse_tstat(x; σ=nothing)
     if σ != isnothing
