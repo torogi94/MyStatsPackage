@@ -4,4 +4,5 @@ authors = ["Torsten Giess <torsten.giess@ibtb.uni-stuttgart.de>"]
 version = "0.1.0"
 
 [deps]
+AutomaticDocstrings = "70b36510-7dee-11e9-28d4-77afe9445f67"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
