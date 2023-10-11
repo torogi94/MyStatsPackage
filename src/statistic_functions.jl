@@ -68,7 +68,7 @@ function rse_mean(x)
 end
 
 #---
-"""
+@doc raw"""
     rse_std(x::Vector)::Real
 
 Return the standard deviation of elements in a Vector.
@@ -99,7 +99,7 @@ function rse_std(x)
 end
 
 #---
-"""
+@doc raw"""
     rse_tstat(x::Vector,[σ]::Real=nothing)::Real
 
 Return the t-value of elements in a Vector.
