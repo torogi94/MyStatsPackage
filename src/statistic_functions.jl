@@ -1,7 +1,4 @@
 #---
-using Test
-
-#---
 """
     rse_sum(x::Vector)::Real
 
@@ -131,7 +128,7 @@ julia> rse_tstat(2:3)
 
 See also
 """
-function rse_tstat(x; σ = nothing)
+function rse_tstat(x; σ=nothing)
     if σ != isnothing
         σ = rse_std(x)
     end
